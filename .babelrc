@@ -1,0 +1,15 @@
+{
+    "presets": [
+        ["env", {
+            "targets": {
+                "browsers": ["last 2 versions", "ie >= 10", "ie >= 11"]
+            },
+            "useBuiltIns": true,
+            "debug": true,
+            "loose": true,
+            "uglify": true,
+            "forceAllTransforms": true
+        }],
+        "es2015"
+    ]
+}
